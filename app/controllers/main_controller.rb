@@ -21,6 +21,10 @@ class MainController < ApplicationController
 
 		checking = CheckingAccount.new("Suzy", 395, 20000,500)
 		checking.print_limit
+		
 		head :ok
+
+		# This is a comment
+	
 	end
 end
